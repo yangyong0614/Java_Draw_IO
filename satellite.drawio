@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-23T18:21:12.439Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="2eyY1bwfQOIj5c2pKdYz" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-23T18:27:39.735Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="V3H4oC82M3fyOC7JDwOG" version="20.0.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1026" dy="1597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -165,7 +165,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FE6pGFP45q7OBsd8KP-3-64" value="Satellite" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="870" y="-80" width="250" height="410" as="geometry">
+          <mxGeometry x="870" y="-268" width="250" height="462" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -181,38 +181,44 @@
         <mxCell id="FE6pGFP45q7OBsd8KP-3-68" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="FE6pGFP45q7OBsd8KP-3-64">
           <mxGeometry y="116" width="250" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="FE6pGFP45q7OBsd8KP-3-69" value="+getHeight():double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FE6pGFP45q7OBsd8KP-3-64">
+        <mxCell id="FE6pGFP45q7OBsd8KP-3-69" value="+moveSpeed():int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FE6pGFP45q7OBsd8KP-3-64">
           <mxGeometry y="124" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="FE6pGFP45q7OBsd8KP-3-70" value="+getMaxHeight():int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FE6pGFP45q7OBsd8KP-3-64">
+        <mxCell id="FE6pGFP45q7OBsd8KP-3-70" value="+ supports(String type):boolean" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FE6pGFP45q7OBsd8KP-3-64">
           <mxGeometry y="150" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="FE6pGFP45q7OBsd8KP-3-71" value="+ addFile(String fileName, FileInfoResponse fileInfo):boolean" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FE6pGFP45q7OBsd8KP-3-64">
+        <mxCell id="FE6pGFP45q7OBsd8KP-3-71" value="+ maxRange():int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FE6pGFP45q7OBsd8KP-3-64">
           <mxGeometry y="176" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="FE6pGFP45q7OBsd8KP-3-72" value="+ deleteFile(String fileName):void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FE6pGFP45q7OBsd8KP-3-64">
+        <mxCell id="FE6pGFP45q7OBsd8KP-3-72" value="+ canStore():boolean" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FE6pGFP45q7OBsd8KP-3-64">
           <mxGeometry y="202" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="FE6pGFP45q7OBsd8KP-3-73" value="+ getFiles():Map&lt;String, FileInfoResponse&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FE6pGFP45q7OBsd8KP-3-64">
+        <mxCell id="FE6pGFP45q7OBsd8KP-3-73" value="+ existFile(String fileName):boolean" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FE6pGFP45q7OBsd8KP-3-64">
           <mxGeometry y="228" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="FE6pGFP45q7OBsd8KP-3-74" value="+ getDeviceId():String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FE6pGFP45q7OBsd8KP-3-64">
+        <mxCell id="FE6pGFP45q7OBsd8KP-3-74" value="+ sendSpeed():int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FE6pGFP45q7OBsd8KP-3-64">
           <mxGeometry y="254" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="FE6pGFP45q7OBsd8KP-3-75" value="+ setDeviceId(String deviceId):void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FE6pGFP45q7OBsd8KP-3-64">
+        <mxCell id="FE6pGFP45q7OBsd8KP-3-75" value="+ receiveSpeed():int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FE6pGFP45q7OBsd8KP-3-64">
           <mxGeometry y="280" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="FE6pGFP45q7OBsd8KP-3-76" value="+ getType():String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FE6pGFP45q7OBsd8KP-3-64">
+        <mxCell id="FE6pGFP45q7OBsd8KP-3-76" value="+getSatelliteId():String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FE6pGFP45q7OBsd8KP-3-64">
           <mxGeometry y="306" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="FE6pGFP45q7OBsd8KP-3-77" value="+ setType(String type):void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FE6pGFP45q7OBsd8KP-3-64">
+        <mxCell id="FE6pGFP45q7OBsd8KP-3-77" value="+setSatelliteId(String satelliteId):void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FE6pGFP45q7OBsd8KP-3-64">
           <mxGeometry y="332" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="FE6pGFP45q7OBsd8KP-3-78" value="+getPosition():Angle" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FE6pGFP45q7OBsd8KP-3-64">
+        <mxCell id="FE6pGFP45q7OBsd8KP-3-78" value="+getType():String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FE6pGFP45q7OBsd8KP-3-64">
           <mxGeometry y="358" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="FE6pGFP45q7OBsd8KP-3-79" value="+setPosition(Angle position):void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FE6pGFP45q7OBsd8KP-3-64">
+        <mxCell id="FE6pGFP45q7OBsd8KP-3-79" value="+setType(String type):void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FE6pGFP45q7OBsd8KP-3-64">
           <mxGeometry y="384" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FE6pGFP45q7OBsd8KP-3-81" value="+getHeight():double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FE6pGFP45q7OBsd8KP-3-64">
+          <mxGeometry y="410" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FE6pGFP45q7OBsd8KP-3-82" value="+getHeight():double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FE6pGFP45q7OBsd8KP-3-64">
+          <mxGeometry y="436" width="250" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
